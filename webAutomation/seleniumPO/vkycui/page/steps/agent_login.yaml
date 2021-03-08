@@ -1,0 +1,27 @@
+- elementname: "role"
+  by: css selector
+  locator: '#loginForm_role'
+  action: click
+- elementname: "select"
+  by: xpath
+  locator: '/html/body/div[2]/div/div/div/div[2]/div[1]/div/div/div[2]'
+  action: click
+- elementname: "username"
+  by: css selector
+  locator: '#loginForm_username'
+  action: send
+  value: "{value}"
+- elementname: "password"
+  by: css selector
+  locator: '#loginForm_password'
+  action: send
+  value: "{value}"
+- elementname: "captcha"
+  by: css selector
+  locator: '#loginForm_captchaCode'
+  action: send
+  value: "{value}"
+- elementname: "captcha"
+  by: css selector
+  locator: '.login-btn'
+  action: click

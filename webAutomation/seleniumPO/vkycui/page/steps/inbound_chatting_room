@@ -1,0 +1,24 @@
+- elementname: 'first'
+  by: css selector
+  locator: '#root > div > div > div.top > div.top-right > div.checklist > div.checklist-content > div > div:nth-child(1)'
+  action: textContent
+- elementname: 'second'
+  by: css selector
+  locator: '#root > div > div > div.top > div.top-right > div.checklist > div.checklist-content > div > div:nth-child(2)'
+  action: textContent
+- elementname: 'third'
+  by: css selector
+  locator: '#root > div > div > div.top > div.top-right > div.checklist > div.checklist-content > div > div:nth-child(3)'
+  action: textContent
+- elementname: 'fourth'
+  by: css selector
+  locator: '#root > div > div > div.top > div.top-right > div.checklist > div.checklist-content > div > div:nth-child(4)'
+  action: textContent
+- elementname: 'fifth'
+  by: css selector
+  locator: '#root > div > div > div.top > div.top-right > div.checklist > div.checklist-content > div > div:nth-child(5)'
+  action: textContent
+- elementname: 'sixth'
+  by: css selector
+  locator: '#root > div > div > div.top > div.top-right > div.checklist > div.checklist-content > div > div:nth-child(6)'
+  action: textContent

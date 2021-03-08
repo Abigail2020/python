@@ -1,0 +1,4 @@
+- elementname: 'skip'
+    by: css selector
+    locator: '.ant-btn'
+    action: click

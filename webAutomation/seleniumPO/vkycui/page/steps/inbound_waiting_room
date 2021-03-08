@@ -1,0 +1,4 @@
+- elementname: 'resume'
+  by: css selector
+  locator: '.switch'
+  action: click

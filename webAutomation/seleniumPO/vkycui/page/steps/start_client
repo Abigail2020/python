@@ -1,0 +1,4 @@
+- elementname: 'start'
+  by: css selector
+  locator: '.ant-btn'
+  action: click
