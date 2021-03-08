@@ -31,22 +31,3 @@ browser = 'chrome'
 # ②无头浏览器
 # browser = 'headless_chrome'
 
-# 数据库相关配置
-tunnel_config = {
-    'ssh_address_or_host': ('149.129.221.124', 24822),
-    'ssh_username': 'sysop',
-    'ssh_pkey': os.path.join(base_path, 'config', 'id_rsa'),
-    'remote_bind_address': ('172.22.64.127', 3306)
-}
-# db_config = {
-#     'host': '127.0.0.1',
-#     'user': 'root',
-#     'passwd': 'advance.ai2016',
-#     'charset': 'utf8'
-# }
-db_config = {
-    'host': '192.168.133.11',
-    'port': 3306,
-    'user': 'root',
-    'passwd': 'advance.ai2016'
-}
