@@ -11,7 +11,7 @@ class AgentLogin(BasePage):
 
     def __init__(self):
         super().__init__(browser="chrome")
-        self.driver.get("https://vkyc-staging-id.advai.net/agent/login")
+        self.driver.get("https://****/agent/***")
 
     def goto_inbound_waiting_room(self, username, password, captcha):
         # 点击role并选择
