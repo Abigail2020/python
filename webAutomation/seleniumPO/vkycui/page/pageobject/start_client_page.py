@@ -11,7 +11,7 @@ class StartClientPage(BasePage):
 
     def goto_agent_preparing_room(self):
         # 打开新tab
-        js = 'window.open("https://vkyc-staging-id.advai.net/client/demo/9234fac872b06e00");'
+        js = 'window.open("https://vkyc-staging-id.advai.net/client/demo/transactionID");'
         self.driver.execute_script(js)
         # 获取窗口句柄信息
         print(self.driver.current_window_handle)
